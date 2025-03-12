@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    position: relative;
+}
+.container1{
+     height: 100vh;
+    background-color: bisque;
+    display: flex;
+    position: relative;
+}
+
+.item{
+    height: 200px;
+    width: 200px;
+   
+}
+
+.item1{
+    background-color: blue;
+    position: relative;
+    top: 300px;
+}
+
+.item2{
+    background-color: red;
+
+}
+
+.item3{
+    background-color: yellowgreen;
+}
+
+.item4{
+    background-color: brown;
+}
+
+#item1{
+    position:absolute;
+}
+
+#item3{
+    position: fixed;
+    
+    right: 20px;
+}
+
+ #item4{
+    position:sticky;
+    top: 100px;
+    right: 50px;
+}
